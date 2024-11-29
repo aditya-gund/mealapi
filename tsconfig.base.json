@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "cart/Routes": ["cart/src/app/remote-entry/entry.routes.ts"],
+      "delivery/Routes": ["delivery/src/app/remote-entry/entry.routes.ts"],
+      "food_menu/Routes": ["food-menu/src/app/remote-entry/entry.routes.ts"],
+      "pricing/Routes": ["pricing/src/app/remote-entry/entry.routes.ts"],
+      "user_auth/Routes": ["user-auth/src/app/remote-entry/entry.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
